@@ -43,69 +43,39 @@ career-profile:
     title: Career Profile
     summary: |
       I am an a well round team player with an extensive background spanning many years in SRE and Dev Ops. 
-      I have had experience in key roles at hyper-growth startup’s like SleevesUp, Betfair and Unlockd.
+      I have had experience in key roles at hyper-growth startup’s like Sorted, SleevesUp, Betfair and Unlockd.
       
 education:
     - degree: Bachelor of Computing
       university: University of Tasmania
       time: Graduated 2013
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+
 experiences:
     - role: Chief Technology Officer
       time: Apr 2020 - Present
       company: Sorted Services, Cremorne
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
+        I lead the technology team for Sorted Services
     - role: Lead Engineer
       time: Nov 2019 - Apr 2020
       company: Sorted Services, Cremorne
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+          - Implemented real user monitoring using Matomo
     - role: Lead Site Reliability Engineer
       time: Feb 2019 - Nov 2019
       company: SleevesUp, Cremorne
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+          - Built a deployment pipeline for Sorted
+          - Created automated infrastracture deployments using Terraform
+          - Lead a production support team
+          - Implemented and lead a incident management process
+          - Added automated code quality checks into build process
     - role: Site Reliability Engineer
       time: Aug 2018 - Feb 2019
       company: SleevesUp, Cremorne
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+          - Lead a migration from Digital Pacific to AWS for SUp clients
+          - Built a process to load REAXML data about properties for Sorted
     - role: Site Reliability Engineer
       time: Jun 2017 - Jul 2018
       company: Unlockd, South Melbourne
