@@ -60,18 +60,20 @@ experiences:
         - Development and delivery of a Technology roadmap
 
         Key Achievements:
-        - lskdhjlskjdg
+        - Implemented event driven architecture for new integrations
+        - Leveraged the event platform for creation of a data lake
 
     - role: Lead Engineer
       time: Nov 2019 - Apr 2020
       company: Sorted Services, Cremorne
       details: |
         Responsibilities:
-        - Lead a team of 15 Engineers
+        - Lead a team of 12 Engineers
 
         Key Achievements:
         - Implemented real user monitoring using Matomo
         - Lead new cultural initiatives, continuous improvement and showcase
+        - Improvements to time taken to onboarding of new tenants
 
     - role: Lead Site Reliability Engineer
       time: Jul 2018 - Nov 2019
@@ -153,6 +155,13 @@ skills:
 
       - name: Java/Kotlin
         level: 50%
+
+skills:
+    title: Second lot of skills
+
+    toolset:
+      - name: Delivery Management
+        level: 98%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
