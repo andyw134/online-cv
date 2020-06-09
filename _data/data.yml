@@ -60,16 +60,23 @@ experiences:
       time: Nov 2019 - Apr 2020
       company: Sorted Services, Cremorne
       details: |
+        Responsibilities:
+        - Lead a team of 9 Engineers
+        
+        Key Achievements:
           - Implemented real user monitoring using Matomo
           - Lead new cultural initiatives, continuous improvement and showcase 
     - role: Lead Site Reliability Engineer
       time: Jul 2018 - Nov 2019
       company: SleevesUp, Cremorne
       details: |
+        Responsibilities:
+        - Lead a team of 2 Engineers
+        - Lead a production support team of 3 developers
+        
         Key Achievements:
           - Built an automated deployment pipeline for Sorted
           - Created automated infrastracture deployments using Terraform
-          - Lead a production support team
           - Implemented and lead a incident management process
           - Added automated code quality checks into build process
           - Lead a migration from Digital Pacific to AWS for SUp clients
