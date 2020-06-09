@@ -42,9 +42,9 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am an a well round team player with an extensive background spanning many years in SRE and Dev Ops. 
+      I am an a well round team player with an extensive background spanning many years in SRE and Dev Ops.
       I have had experience in key roles at hyper-growth startup’s like Sorted, SleevesUp, Betfair and Unlockd.
-      
+
 education:
     - degree: Bachelor of Computing
       university: University of Tasmania
@@ -55,17 +55,24 @@ experiences:
       time: Apr 2020 - Present
       company: Sorted Services, Cremorne
       details: |
+        Responsibilities:
+        - Lead a team of 15 Engineers
         - Development and delivery of a Technology roadmap
+
+        Key Achievements:
+        - 
+
     - role: Lead Engineer
       time: Nov 2019 - Apr 2020
       company: Sorted Services, Cremorne
       details: |
         Responsibilities:
-        - Lead a team of 9 Engineers
-        
+        - Lead a team of 15 Engineers
+
         Key Achievements:
-          - Implemented real user monitoring using Matomo
-          - Lead new cultural initiatives, continuous improvement and showcase 
+        - Implemented real user monitoring using Matomo
+        - Lead new cultural initiatives, continuous improvement and showcase
+
     - role: Lead Site Reliability Engineer
       time: Jul 2018 - Nov 2019
       company: SleevesUp, Cremorne
@@ -73,14 +80,15 @@ experiences:
         Responsibilities:
         - Lead a team of 2 Engineers
         - Lead a production support team of 3 developers
-        
+
         Key Achievements:
-          - Built an automated deployment pipeline for Sorted
-          - Created automated infrastracture deployments using Terraform
-          - Implemented and lead a incident management process
-          - Added automated code quality checks into build process
-          - Lead a migration from Digital Pacific to AWS for SUp clients
-          - Built a process to load REAXML data about properties for Sorted
+        - Built an automated deployment pipeline for Sorted
+        - Created automated infrastracture deployments using Terraform
+        - Implemented and lead a incident management process
+        - Added automated code quality checks into build process
+        - Lead a migration from Digital Pacific to AWS for SUp clients
+        - Built a process to load REAXML data about properties for Sorted
+
     - role: Site Reliability Engineer
       time: Jun 2017 - Jul 2018
       company: Unlockd, South Melbourne
@@ -89,12 +97,13 @@ experiences:
         - Support of a CI/CD platform including infrastructure as code
         - Maintain a large AWS based production infrastructure across multiple regions
         - Monitoring and responding to monitoring events including on-call duties
-        
+
         Key Achievements:
         - GDPR compliance
         - Development and maintenance of a big data platform processing more than 100,000,000 events per day
         - Achieved a 10 minute MTTD and 1 hour MTTR for incidents
         - Delivered a complete infrastructure deployment to a new region in less than 1 day
+
     - role: Application Support Engineer
       time: May 2016 - Jun 2017
       company: Unlockd, South Melbourne
@@ -104,11 +113,13 @@ experiences:
         - Implementation and refinement of monitoring, metrics and logging
         - Incident management and root cause analysis
         - Second line support for customer support
+
     - role: Technical Service Desk Engineer
       time: Jun 2014 - May 2016
       company: Betfair, Hobart
       details: |
         First line support and incident management for the company’s website and back end services
+
     - role: Desktop Support Engineer
       time: Aug 2013 - Jun 2014
       company: Betfair, Hobart
@@ -124,7 +135,7 @@ skills:
 
       - name: Linux
         level: 85%
-        
+
       - name: Terraform
         level: 85%
 
@@ -133,13 +144,13 @@ skills:
 
       - name: SQL
         level: 80%
-        
+
       - name: Data Lake &amp; Analytics
         level: 75%
-      
+
       - name: Python
         level: 75%
-        
+
       - name: Java/Kotlin
         level: 50%
 
