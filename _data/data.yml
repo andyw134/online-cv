@@ -14,16 +14,9 @@ sidebar:
     # Sidebar links
     email: andrew@wells.im
     phone: 0434 287 051
-    #website: blog.webjeda.com #do not add http://
     linkedin: andrew-wells-30bb1a10a
+    #website: blog.webjeda.com #do not add http://
     #github: sharu725
-    #telegram: # add your nickname without '@' sign
-    #gitlab:
-    #bitbucket:
-    #twitter: '@webjeda'
-    #stack-overflow: # Number/Username, e.g. 123456/alandoe
-    #codewars:
-    #goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
       - idiom: English
@@ -58,10 +51,15 @@ experiences:
         Responsibilities:
         - Lead a team of 15 Engineers
         - Development and delivery of a Technology roadmap
+        - Delivering updates to the business and the board
+        - Recruitment of new talent
+        - Management of technology budget
+        - Onsite infrastrure for 120 seat shared office space
 
         Key Achievements:
         - Implemented event driven architecture for new integrations
         - Leveraged the event platform for creation of a data lake
+        - Maintained development velocity through COVID-19 lock down
 
     - role: Lead Engineer
       time: Nov 2019 - Apr 2020
@@ -69,11 +67,16 @@ experiences:
       details: |
         Responsibilities:
         - Lead a team of 12 Engineers
+        - Recruitment of new talent
+        - Onsite infrastrure for 120 seat shared office space
 
         Key Achievements:
         - Implemented real user monitoring using Matomo
+        - Migrated from monolithic to micro service architecture
         - Lead new cultural initiatives, continuous improvement and showcase
         - Improvements to time taken to onboarding of new tenants
+        - PCI DSS compliance
+        - Launched top tier Melbourne Estate Agency with 15 branches
 
     - role: Lead Site Reliability Engineer
       time: Jul 2018 - Nov 2019
@@ -82,13 +85,15 @@ experiences:
         Responsibilities:
         - Lead a team of 2 Engineers
         - Lead a production support team of 3 developers
+        - Incident response and management
+        - Onsite infrastrure for 120 seat shared office space
 
         Key Achievements:
         - Built an automated deployment pipeline for Sorted
         - Created automated infrastracture deployments using Terraform
         - Implemented and lead a incident management process
         - Added automated code quality checks into build process
-        - Lead a migration from Digital Pacific to AWS for SUp clients
+        - Lead a cloud migration from co-lo to AWS
         - Built a process to load REAXML data about properties for Sorted
 
     - role: Site Reliability Engineer
@@ -155,12 +160,6 @@ skills:
 
       - name: Java/Kotlin
         level: 50%
-
-    title: Second lot of skills
-
-    toolset:
-      - name: Delivery Management
-        level: 98%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
