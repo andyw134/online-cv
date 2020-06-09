@@ -82,6 +82,7 @@ experiences:
         - Support of a CI/CD platform including infrastructure as code
         - Maintain a large AWS based production infrastructure across multiple regions
         - Monitoring and responding to monitoring events including on-call duties
+        
         Key Achievements:
         - GDPR compliance
         - Development and maintenance of a big data platform processing more than 100,000,000 events per day
