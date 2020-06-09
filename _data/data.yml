@@ -37,6 +37,8 @@ career-profile:
     summary: |
       I am an a well round team player with an extensive background spanning many years in SRE and Dev Ops.
       I have had experience in key roles at hyper-growth startup’s like Sorted, SleevesUp, Betfair and Unlockd.
+      Achitecture, data, monitoring, MTTD, management, CI/CD, IaC, secret management, Hands on, AWS, cloud, big data
+      Rearchitect platforms, scale and growth, elastic infrastructure, onboarding clients, raised 5.6mil in series a
 
 education:
     - degree: Bachelor of Computing
@@ -55,6 +57,7 @@ experiences:
         - Recruitment of new talent
         - Management of technology budget
         - Onsite infrastrure for 120 seat shared office space
+        - Security
 
         Key Achievements:
         - Implemented event driven architecture for new integrations
@@ -69,6 +72,7 @@ experiences:
         - Lead a team of 12 Engineers
         - Recruitment of new talent
         - Onsite infrastrure for 120 seat shared office space
+        - Security
 
         Key Achievements:
         - Implemented real user monitoring using Matomo
@@ -76,6 +80,7 @@ experiences:
         - Lead new cultural initiatives, continuous improvement and showcase
         - Improvements to time taken to onboarding of new tenants
         - PCI DSS compliance
+        - Integration with Energy Australia
         - Launched top tier Melbourne Estate Agency with 15 branches
 
     - role: Lead Site Reliability Engineer
@@ -87,6 +92,7 @@ experiences:
         - Lead a production support team of 3 developers
         - Incident response and management
         - Onsite infrastrure for 120 seat shared office space
+        - Security
 
         Key Achievements:
         - Built an automated deployment pipeline for Sorted
@@ -102,14 +108,18 @@ experiences:
       details: |
         Responsibilities:
         - Support of a CI/CD platform including infrastructure as code
-        - Maintain a large AWS based production infrastructure across multiple regions
+        - Maintain a large AWS based production infrastructure across 4 regions
         - Monitoring and responding to monitoring events including on-call duties
+        - Collection and processing of data for analytics
+        - Security
 
         Key Achievements:
         - GDPR compliance
         - Development and maintenance of a big data platform processing more than 100,000,000 events per day
         - Achieved a 10 minute MTTD and 1 hour MTTR for incidents
         - Delivered a complete infrastructure deployment to a new region in less than 1 day
+        - Reduced costs in AWS
+        - Delivered service for Coles, Flybuys, Tesco and Boost (Sprint Telecom)
 
     - role: Application Support Engineer
       time: May 2016 - Jun 2017
