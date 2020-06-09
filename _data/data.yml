@@ -55,39 +55,43 @@ experiences:
       time: Apr 2020 - Present
       company: Sorted Services, Cremorne
       details: |
-        I lead the technology team for Sorted Services
+        - Development and delivery of a Technology roadmap
     - role: Lead Engineer
       time: Nov 2019 - Apr 2020
       company: Sorted Services, Cremorne
       details: |
           - Implemented real user monitoring using Matomo
+          - Lead new cultural initiatives, continuous improvement and showcase 
     - role: Lead Site Reliability Engineer
       time: Feb 2019 - Nov 2019
       company: SleevesUp, Cremorne
       details: |
-          - Built a deployment pipeline for Sorted
+        Key Achievements:
+          - Built an automated deployment pipeline for Sorted
           - Created automated infrastracture deployments using Terraform
           - Lead a production support team
           - Implemented and lead a incident management process
           - Added automated code quality checks into build process
-    - role: Site Reliability Engineer
-      time: Aug 2018 - Feb 2019
-      company: SleevesUp, Cremorne
-      details: |
           - Lead a migration from Digital Pacific to AWS for SUp clients
           - Built a process to load REAXML data about properties for Sorted
     - role: Site Reliability Engineer
       time: Jun 2017 - Jul 2018
       company: Unlockd, South Melbourne
       details: |
-        - Maintain a large AWS based production infrastructure
-        - Monitoring and responding to monitoring events including on-call duties
-        - Development and maintenance of a big data platform processing more than 100,000,000 events per day
+        Responsibilities:
         - Support of a CI/CD platform including infrastructure as code
+        - Maintain a large AWS based production infrastructure across multiple regions
+        - Monitoring and responding to monitoring events including on-call duties
+        Key Achievements:
+        - GDPR compliance
+        - Development and maintenance of a big data platform processing more than 100,000,000 events per day
+        - Achieved a 10 minute MTTD and 1 hour MTTR for incidents
+        - Delivered a complete infrastructure deployment to a new region in less than 1 day
     - role: Application Support Engineer
       time: May 2016 - Jun 2017
       company: Unlockd, South Melbourne
       details: |
+        Responsibilities:
         - Investigation of potential bugs and problem in back-end java applications and Android apps
         - Implementation and refinement of monitoring, metrics and logging
         - Incident management and root cause analysis
@@ -110,26 +114,26 @@ skills:
       - name: Bash &amp; shell scripting
         level: 98%
 
-      - name: Python
-        level: 98%
-
       - name: Linux
-        level: 98%
-
-      - name: Docker
-        level: 95%
-
+        level: 85%
+        
       - name: Terraform
         level: 85%
+
+      - name: Docker
+        level: 80%
 
       - name: SQL
         level: 80%
         
-      - name: Automation
-        level: 80%
+      - name: Data Lake &amp; Analytics
+        level: 75%
       
-      - name: AWS
-        level: 80%
+      - name: Python
+        level: 75%
+        
+      - name: Java/Kotlin
+        level: 50%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
