@@ -46,8 +46,16 @@ education:
       time: Graduated 2013
 
 experiences:
+    - role: Engineering Director of Site Reliability & DevOps
+      time: July 2020 - Present
+      company: Render Networks, Glen Iris
+      details: |
+        Responsibilities:
+        - Over haul existing architecture
+        - Implement New Relic
+
     - role: Chief Technology Officer
-      time: Apr 2020 - Present
+      time: Apr 2020 - June 2020
       company: Sorted Services, Cremorne
       details: |
         Responsibilities:
@@ -166,6 +174,9 @@ skills:
         level: 75%
 
       - name: Python
+        level: 75%
+        
+      - name: CloudFormation
         level: 75%
 
       - name: Java/Kotlin
