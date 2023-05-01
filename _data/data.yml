@@ -1,9 +1,5 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -13,10 +9,10 @@ sidebar:
 
     # Sidebar links
     email: andrew@wells.im
-    phone: 0434 287 051
+    phone: +61 434 287 051
     linkedin: andrew-wells-30bb1a10a
     #website: blog.webjeda.com #do not add http://
-    #github: sharu725
+    #github: andyw134
 
     languages:
       - idiom: English
@@ -36,7 +32,7 @@ career-profile:
     title: Career Profile
     summary: |
       I am an a well round team player with an extensive background spanning many years in SRE and Dev Ops.
-      I have had experience in key roles at hyper-growth startup’s like Sorted, SleevesUp, Betfair and Unlockd.
+      I have had experience in key roles at hyper-growth startup's like Render Networks, Sorted, SleevesUp, Betfair and Unlockd.
       Achitecture, data, monitoring, MTTD, management, CI/CD, IaC, secret management, Hands on, AWS, cloud, big data
       Rearchitect platforms, scale and growth, elastic infrastructure, onboarding clients, raised 5.6mil in series a
 
@@ -51,8 +47,17 @@ experiences:
       company: Render Networks, Glen Iris
       details: |
         Responsibilities:
-        - Over haul existing architecture
-        - Implement New Relic
+        - Lead the SRE team of 4 Engineers
+        - Leader of a 12 month project to rebuild the platform
+        - Leader of a 6 month project to build a data and analytics platform
+        - Development and delivery of a Technology roadmap
+        - Stability &amp; security of Render's AWS Infrastructure
+
+        Key Achievements
+        - Architected and rebuilt the platform for a siloed architecture with over 60 deployments to a single multi-tenanted platform
+        - Achieved ISO 27001 Certicication
+        - Built CI/CD tools to uplift releases from once a month to multiple times a day
+        - Projects I lead were key items for <a href="https://www.rendernetworks.com/resources/ifm-render">IFM's $40m investment in the company</a>
 
     - role: Chief Technology Officer
       time: Apr 2020 - June 2020
@@ -139,17 +144,17 @@ experiences:
         - Incident management and root cause analysis
         - Second line support for customer support
 
-    - role: Technical Service Desk Engineer
-      time: Jun 2014 - May 2016
-      company: Betfair, Hobart
-      details: |
-        First line support and incident management for the company’s website and back end services
+    # - role: Technical Service Desk Engineer
+    #   time: Jun 2014 - May 2016
+    #   company: Betfair, Hobart
+    #   details: |
+    #     First line support and incident management for the company’s website and back end services
 
-    - role: Desktop Support Engineer
-      time: Aug 2013 - Jun 2014
-      company: Betfair, Hobart
-      details: |
-        Management of a large internal fleet of hardware and daily problems with hardware and software
+    # - role: Desktop Support Engineer
+    #   time: Aug 2013 - Jun 2014
+    #   company: Betfair, Hobart
+    #   details: |
+    #     Management of a large internal fleet of hardware and daily problems with hardware and software
 
 skills:
     title: Skills &amp; Proficiency
@@ -157,6 +162,9 @@ skills:
     toolset:
       - name: Bash &amp; shell scripting
         level: 98%
+
+      - name: CloudFormation
+        level: 90%
 
       - name: Linux
         level: 85%
@@ -175,9 +183,6 @@ skills:
 
       - name: Python
         level: 75%
-        
-      - name: CloudFormation
-        level: 90%
 
       - name: Java/Kotlin
         level: 50%
