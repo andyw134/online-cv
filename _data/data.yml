@@ -41,7 +41,7 @@ education:
       university: University of Tasmania
       time: Graduated 2013
 
-experiences:
+experience:
     - role: Engineering Director of Site Reliability & DevOps
       time: July 2020 - Present
       company: Render Networks, Glen Iris
