@@ -152,6 +152,9 @@ skills:
       - name: Bash &amp; shell scripting
         level: 98%
 
+      - name: CI/CD Pipelines &amp; Tools
+        level: 95%
+
       - name: Data Lake &amp; Analytics 
         level: 90%
 
