@@ -1,5 +1,7 @@
 function print() {
-  const printWindow = window.open("/print", "_blank");
+  // Get the base URL from the current page path
+  const baseUrl = window.location.pathname.includes('/online-cv') ? '/online-cv' : '';
+  const printWindow = window.open(baseUrl + "/print", "_blank");
   printWindow.onload = function () {
     printWindow.print();
     // Close the print window after a delay
