@@ -1,31 +1,27 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
   position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
+  name: Andrew Wells
+  tagline: Engineering Director | SRE &amp; Data Platform Leader
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  email: andrew@wells.im
+  phone: 
+  timezone: Australia/Melbourne
   citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
+  website: # Include the full website URL, including "http://" or "https://".
+  linkedin: andrew-wells-30bb1a10a
+  xing: 
+  github: 
   telegram: # add your nickname without '@' sign
   gitlab:
   bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
+  bluesky: # Specify your full Bluesky handle
+  twitter: 
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
@@ -40,247 +36,219 @@ sidebar:
     - idiom: English
       level: Native
 
-    - idiom: French
-      level: Professional
-
-    - idiom: Spanish
-      level: Professional
-
   interests:
     title: Interests
     info:
-    - item: Climbing
+    - item: Photography
       link:
 
-
-    - item: Snowboarding
+    - item: Gadgets and Hardware
       link:
 
-
-    - item: Cooking
+    - item: Gaming
       link:
-
 
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    Pragmatic Engineering Director with 10+ years delivering enterprise-grade infrastructure and data platforms at resource-constrained startups. Built SRE, Security, and Data Engineering capability from ground up at Render Networks, managing $1M infrastructure budget while maintaining 99.99% uptime, achieving ISO 27001:2022 certification, and consistently reducing costs as the business scales.
+    
+    Expert in right-sizing technology decisions for business needs—choosing serverless over Kubernetes, managed services over self-hosted complexity, and strategic vendor negotiations over premature optimization. Recent achievements include architecting event-driven microservices migration, implementing AI(LLM)-powered quality control tool for image processing (80% accuracy), leading 100% LLM adoption across 20 engineers (2K+ Copilot completions/month), and delivering $105K annual cost savings through platform modernization.
+    
+    Proven track record building high-performing teams with strong retention, interviewing/hiring for dozens of roles, and maintaining hands-on technical leadership while operating cross-functionally. Technical expertise spans AWS, event-driven architecture, modern data platforms (Databricks, dbt), and cost-effective infrastructure decisions. Seeking Director-level role combining strategic technical leadership with hands-on engineering at growing companies.
+
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree: Bachelor of Computing
+    university: University of Tasmania
+    time: Graduated 2013
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
 
 experiences:
-  title: Experiences
+  title: Experience
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Director of Site Reliability, DevOps &amp; Data
+    time: 2024 - Present
+    company: Render Networks, Glen Iris
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+      Lead SRE, Security, and Data Engineering teams managing ~$1M infrastructure budget for property technology platform serving thousands of users. Drive platform modernization, cost optimization, and AI/ML integration while maintaining 99.99% uptime and hands-on technical involvement in architectural decisions across the product and engineering team.
+      
+      Key Achievements:
+      - Architected migration from AWS Lambda to ECS-based event-driven microservices for async workloads hitting Lambda's 15-minute execution limits, choosing ECS over EKS for operational simplicity appropriate to team size while maintaining serverless for API workloads
+      - Selected Confluent Cloud over self-managed Kafka, prioritizing managed service ease-of-use and team efficiency over infrastructure costs—enabling small team to focus on business value rather than cluster operations
+      - Built AI-powered image quality control system using AWS Rekognition and multimodal LLMs, achieving 80% true positive rate (catching problematic images) with 10% false positive rate, enabling proactive quality detection for 100-200K images/month
+      - Led 100% LLM tool adoption across 20 engineers using GitHub Copilot and Claude, generating 2,000+ code completions and 1,500+ chat interactions monthly, contributing to 40% reduction in PR turnaround time
+      - Modernized analytics by migrating from Sisense to Databricks with dbt transformation layer processing 2 data sources (near-real-time PostgreSQL replication with &lt;5min SLO, Kafka events), reducing costs $55K annually (65%) while negotiating additional 15% Databricks discount
+      - Upgraded ISO 27001:2017 to 2022 standard, implementing threat intelligence, dependency vulnerability scanning (Akido—consolidating 2 previous tools), DLP, and enhanced endpoint controls across 75 devices
+      - Migrated from New Relic to Datadog achieving $50K annual savings (42%), negotiated 10% Google Workspace discount, and consistently reduced AWS spend despite user base growth through continuous optimization and right-sizing
+      - Maintained 99.99% platform uptime over past 12 months (sustained for 3+ years), demonstrating enterprise-grade reliability at startup scale
+      
+      Team &amp; Cross-Functional Leadership:
+      - Hired and onboarded all 4 team members while participating in many interviews across engineering organization
+      - Led cross-functional initiatives spanning product, engineering, and customer success teams—essential skillset at small company where all projects require multi-team collaboration
+      - Promoted junior engineers to mid-level roles, grew data engineer to senior, and mentored engineer who progressed to SRE Lead at new company
+
+  - role: Engineering Director of Site Reliability &amp; DevOps
+    time: July 2020 - 2024
+    company: Render Networks, Glen Iris
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
+      Built SRE, Security, and Data Engineering capability from inception as company scaled from 15 to 75 employees. Established infrastructure foundation, engineering practices, and team culture while delivering platform transformation critical to securing $40M investment.
+      
+      Platform &amp; Infrastructure:
+      - Architected and rebuilt platform from siloed architecture with 60+ separate deployments to unified multi-tenant system, dramatically reducing operational complexity and deployment overhead
+      - Built real-time data platform with near-real-time PostgreSQL replication (sub-5-minute latency) and event streaming, enabling analytics, AI/ML projects, and customer insights product
+      - Achieved ISO 27001:2013 Certification (later upgraded to 2022), establishing enterprise security posture that enabled enterprise customer acquisition in regulated market
+      - Transformed CI/CD from monthly releases to multiple daily deployments through automated testing, quality gates, and deployment automation—enabling rapid iteration while maintaining stability
+      - Delivered technical initiatives that were key factors in <a href="https://www.rendernetworks.com/resources/ifm-render">IFM's $40M investment in the company</a>, demonstrating platform scalability and operational maturity to institutional investors
+      
+      Team Leadership &amp; Engineering Culture:
+      - Built SRE/Data/Security capability from zero to 4-person core team, achieving 75% retention over 3+ years in competitive Melbourne tech market
+      - Worked closely with entire product and technology organization (15→75 people), providing technical guidance and infrastructure support across all engineering initiatives
+      - Established incident management processes, on-call rotations, blameless post-mortem culture, and technical standards adopted company-wide
+      - Created hiring, onboarding, and career development frameworks that enabled team scaling while maintaining quality, knowledge transfer, and culture
+
+  - role: Interim Chief Technology Officer
+    time: Apr 2020 - June 2020
+    company: Sorted Services (Sponsored by SleevesUp), Cremorne
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Stepped into interim CTO role during leadership transition and COVID-19 pandemic to provide stability for 15-person engineering team. Managed technology roadmap, board communications, and remote work transition before returning to preferred technical leadership role.
+      
+      Key Achievements:
+      - Implemented event-driven architecture for new integrations, establishing foundation for data lake and analytics capabilities still in use today
+      - Successfully transitioned entire engineering team to remote work during COVID-19 lockdown, maintaining development velocity and team morale through uncertain period
+      - Delivered technology roadmap and regular board updates during critical business period, ensuring stakeholder confidence
+
+  - role: Lead Engineer
+    time: Nov 2019 - Apr 2020
+    company: Sorted Services (Sponsored by SleevesUp), Cremorne
+    details: |
+      Led 12-person engineering team for property management platform serving major Melbourne real estate agencies. Drove architectural modernization from monolith to microservices while maintaining strict security and compliance requirements.
+      
+      Key Achievements:
+      - Migrated from monolithic architecture to microservices, enabling independent team velocity and reducing deployment risk through service isolation
+      - Implemented real user monitoring using Matomo, shifting team to data-driven performance optimization and user experience improvements
+      - Achieved PCI DSS compliance for payment processing, implementing security controls, audit logging, and compliance processes required for credit card handling
+      - Successfully launched Energy Australia integration and onboarded top-tier Melbourne estate agency with 15 branches, demonstrating platform scalability
+      - Reduced new tenant onboarding time through infrastructure automation and streamlined processes
+      - Led cultural initiatives including continuous improvement programs and engineering showcases to build learning culture
+
+  - role: Lead Site Reliability Engineer
+    time: Jul 2018 - Nov 2019
+    company: SleevesUp, Cremorne
+    details: |
+      Led 2-person SRE team and 3-person production support team responsible for infrastructure automation, incident management, and AWS cloud migration. Managed on-site infrastructure for 120-seat shared office space including network, security, and end-user computing.
+      
+      Key Achievements:
+      - Built automated deployment pipeline for Sorted platform using Jenkins and custom tooling, enabling reliable releases and reducing deployment time from hours to minutes
+      - Created infrastructure-as-code deployments using Terraform for entire AWS environment, establishing version-controlled, repeatable infrastructure provisioning
+      - Led cloud migration from co-location datacenter to AWS, modernizing infrastructure while minimizing business disruption during multi-month transition
+      - Implemented formal incident management process with defined severity levels, escalation paths, runbooks, and post-mortem culture
+      - Integrated automated code quality checks (SonarQube, linting) into CI pipeline, improving code standards and catching issues pre-production
+      - Built REAXML data ingestion pipeline processing property listings, enabling core platform search and matching functionality
+
+  - role: Site Reliability Engineer
+    time: Jun 2017 - Jul 2018
+    company: Unlockd, South Melbourne
+    details: |
+      Supported CI/CD platform and managed large-scale AWS infrastructure across 4 global regions for mobile advertising platform. Responsible for monitoring, incident response, big data analytics infrastructure, security compliance, and cost optimization.
+      
+      Key Achievements:
+      - Achieved GDPR compliance across multi-region infrastructure ahead of May 2018 deadline, implementing data protection controls, privacy safeguards, and right-to-deletion workflows
+      - Built and maintained big data platform processing 100M+ events per day using EMR, Redshift, and Kinesis, enabling real-time analytics and business intelligence for advertising operations
+      - Achieved 10-minute MTTD (Mean Time to Detect) and 1-hour MTTR (Mean Time to Resolve) through comprehensive CloudWatch monitoring, PagerDuty integration, and automated remediation
+      - Delivered complete infrastructure deployment to new AWS region in under 24 hours using Terraform, demonstrating infrastructure-as-code maturity and disaster recovery capability
+      - Implemented AWS cost optimization including reserved instances, rightsizing, and S3 lifecycle policies, reducing monthly spend while supporting growth
+      - Supported enterprise customers including Coles, Flybuys, Tesco, and Boost (Sprint Telecom) with dedicated infrastructure and compliance requirements
 
 certifications:
   title: Certifications
   list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
-    details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
-    details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
-  title: Projects
+  title: Key Technical Initiatives
   intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    Recent platform modernization and innovation projects demonstrating pragmatic technology choices, cost optimization, and AI/ML integration appropriate to business scale and team capacity.
   assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  - title: AI-Powered Image Quality Control
+    link: ""
+    tagline: "Built automated image moderation using AWS Rekognition and multimodal LLM achieving 80% detection accuracy with 10% false positive rate. Processes 100-200K images/month enabling proactive quality issues before final approval."
 
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+  - title: Right-Sized Event-Driven Architecture
+    link: ""
+    tagline: "Migrated async workloads from Lambda (hitting 15min limits) to ECS microservices with Confluent Cloud Kafka. Chose ECS over EKS and managed Kafka over self-hosted for operational simplicity—prioritizing team efficiency over infrastructure complexity at startup scale."
 
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+  - title: Cost-Optimized Data Platform Migration
+    link: ""
+    tagline: "Migrated from Sisense to Databricks with dbt transformation layer processing near-real-time PostgreSQL replication (<5min SLO) and Kafka events. Achieved 65% cost reduction ($55K/year) plus 15% vendor discount through negotiation."
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  - title: Company-Wide LLM Adoption
+    link: ""
+    tagline: "Led 100% adoption of GitHub Copilot and Claude across 20 engineers generating 2,000+ monthly code completions and 1,500+ chat interactions. Achieved 40% reduction in PR turnaround time and measurable developer experience improvement."
 
 oss:
   title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  intro: 
   contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
   title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
+  intro: 
   papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
-
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
 
 recommendations:
   title: Recommendations
   list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
+  - person: John Podlena
+    email: 
+    phone: 
+    role: Chief Technology Officer, Render Networks
     recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
+      "Andrew shows passion and skill in developing architectural solutions, and his opinion is sought by leaders from all areas of the business. He deeply understands how what we do now affects how the company is placed from a capability and quality perspective into the future. His opinion throughout the company is both sought out and respected. His attention to detail is impeccable. He is a great people leader - his people feel supported by him such that they achieve outstanding results and innovate in a rapidly changing environment with high expectations."
 
-      He is a great employee!
+  - person: Hani Ghaith
+    email: 
+    phone: 
+    role: Director of Customer Operations, Sorted Services
+    recommendation: |
+      "Andrew is the person the whole organisation went to for any type of problem. Respected by his peers and subordinates. An amazing technology expert who is always keen to share his knowledge and builds his solutions with the customer in mind."
 
 skills:
   title: Skills &amp; Proficiency
 
   toolset:
-  - name: Python & Django
-    level: 98%
-
-  - name: Javascript & jQuery
-    level: 98%
-
-  - name: Angular
-    level: 98%
-
-  - name: HTML5 & CSS
+  - name: Team Leadership
     level: 95%
 
-  - name: Ruby on Rails
+  - name: AWS Cloud Services
+    level: 95%
+
+  - name: Container Orchestration
+    level: 95%
+
+  - name: CI/CD &amp; DevOps
+    level: 95%
+
+  - name: Event-Driven Architecture
+    level: 95%
+
+  - name: Infrastructure as Code
+    level: 90%
+
+  - name: Data Engineering
+    level: 90%
+
+  - name: Observability &amp; Monitoring
+    level: 90%
+
+  - name: AI/ML &amp; LLM Integration
     level: 85%
 
-  - name: Sketch & Photoshop
-    level: 60%
+  - name: Security &amp; Compliance
+    level: 85%
+
+  - name: Python &amp; Bash
+    level: 85%
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
