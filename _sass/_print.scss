@@ -1,61 +1,292 @@
 @media print {
   @page {
     size: A4;
+    margin: 0.5cm;
   }
+  
   body {
     font-size: 9pt;
     background-color: white;
     padding: 0;
+    margin: 0;
   }
+  
   .wrapper {
     max-width: 100%;
+    display: block !important;
+    box-shadow: none;
+    background: white;
   }
 
-  //   img.avatar {
-  //     filter: grayscale(1);
-  //     -webkit-filter: greyscale(1);
-  //   }
-  .main-wrapper .time {
-    padding: 10px 30px 10px 10px;
-    //  float: right;
-    //  color: black !important;
-    -webkit-print-color-adjust: exact;
-  }
+  /* Compact sidebar/header */
   .sidebar-wrapper {
     position: static;
-    //  float: right;
-    //  width: 40%;
+    float: none;
+    width: 100% !important;
+    background: white !important;
+    color: #333 !important;
+    page-break-after: avoid;
     -webkit-print-color-adjust: exact;
-  }
-
-  .remove-container.container-block {
-    display: none;
-  }
-
-  footer {
-    display: none;
-  }
-
-  .skillset,
-  .container-block {
-    break-inside: avoid;
-  }
-
-  .skillset .level-bar-inner {
-    background-color: $theme-color !important;
-    -webkit-print-color-adjust: exact;
-  }
-
-   .fa-inverse,
-   .fa-inverse:after,
-   .fa-inverse:before {
-     color: #ffffff !important;
-   }
-
-    /* Hide buttons when printing */
-    .print-button,
-    .pdf-button,
-    .d-print-none {
-        display: none !important;
+    
+    .profile-container {
+      padding: 15px 20px !important;
+      background: #f5f5f5 !important;
+      text-align: left !important;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      page-break-inside: avoid;
     }
+    
+    .avatar {
+      max-width: 60px !important;
+      max-height: 60px !important;
+      margin: 0 !important;
+      flex-shrink: 0;
+    }
+    
+    .name {
+      font-size: 20pt !important;
+      margin: 0 !important;
+      color: #333 !important;
+    }
+    
+    .tagline {
+      font-size: 10pt !important;
+      margin: 5px 0 0 0 !important;
+      color: #666 !important;
+    }
+    
+    /* Compact contact info */
+    .contact-container {
+      padding: 10px 20px !important;
+      border-bottom: 1px solid #ddd;
+      page-break-inside: avoid;
+      
+      .contact-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        margin: 0;
+        
+        li {
+          margin: 0 !important;
+          display: inline-block;
+          font-size: 8pt;
+          color: #666 !important;
+        }
+      }
+    }
+    
+    /* Hide or compact other sidebar sections */
+    .education-container,
+    .languages-container,
+    .interests-container {
+      display: none; // Hide these in print to save space
+    }
+    
+    .container-block-title {
+      font-size: 10pt !important;
+      margin-bottom: 8px !important;
+      color: #333 !important;
+    }
+    
+    a {
+      color: #333 !important;
+      text-decoration: none;
+    }
+  }
+
+  /* Main content optimization */
+  .main-wrapper {
+    width: 100% !important;
+    padding: 20px !important;
+    float: none;
+    
+    .section {
+      margin-bottom: 20px !important;
+    }
+    
+    /* Allow career profile and skills to share page with experience */
+    .career-profile-section {
+      page-break-after: auto;
+      margin-bottom: 15px !important;
+    }
+    
+    .skills-section {
+      page-break-after: auto;
+      margin-bottom: 15px !important;
+    }
+    
+    /* Experience section can start on same page */
+    .experiences-section {
+      page-break-before: auto;
+    }
+    
+    .section-title {
+      font-size: 14pt !important;
+      margin-bottom: 12px !important;
+      padding-bottom: 5px;
+      border-bottom: 2px solid #333;
+      color: #333 !important;
+      page-break-after: avoid;
+      /* Allow section title to stay with at least some content */
+      orphans: 2;
+    }
+    
+    .experiences-section,
+    .recommendations-section {
+      .item {
+        margin-bottom: 15px !important;
+        /* Only avoid page breaks for items that will fit */
+        page-break-inside: auto;
+        
+        /* Keep job title with company and first few bullets */
+        .upper-row {
+          page-break-after: avoid;
+        }
+        
+        .company {
+          page-break-after: avoid;
+        }
+        
+        /* Keep "Key Achievements:" header with at least first bullet */
+        h4, strong {
+          page-break-after: avoid;
+        }
+        
+        /* Better orphan/widow control */
+        .details {
+          orphans: 3;
+          widows: 3;
+          
+          ul {
+            orphans: 2;
+            widows: 2;
+          }
+          
+          li {
+            page-break-inside: avoid;
+          }
+        }
+      }
+      
+      /* First job entry should try to fit on page 1 */
+      .item:first-child {
+        page-break-inside: avoid;
+      }
+    }
+    
+    .upper-row {
+      margin-bottom: 3px !important;
+    }
+    
+    .job-title,
+    .degree,
+    .recommendation-person {
+      font-size: 11pt !important;
+      font-weight: 600 !important;
+      color: #000 !important;
+    }
+    
+    .time {
+      position: static !important;
+      float: right;
+      font-size: 9pt !important;
+      color: #666 !important;
+      padding: 0 !important;
+    }
+    
+    .company,
+    .university,
+    .recommendation-role {
+      font-size: 9pt !important;
+      color: #666 !important;
+      margin-bottom: 5px !important;
+    }
+    
+    .details,
+    p,
+    li {
+      font-size: 9pt !important;
+      line-height: 1.4 !important;
+      color: #333 !important;
+    }
+    
+    ul {
+      margin: 8px 0 !important;
+      padding-left: 18px !important;
+      
+      li {
+        margin-bottom: 3px !important;
+      }
+    }
+  }
+
+  /* Skills section - ultra compact */
+  .skillset {
+    page-break-inside: avoid;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px 15px;
+    
+    .item {
+      margin-bottom: 0 !important;
+      display: grid;
+      grid-template-columns: 140px 1fr;
+      align-items: center;
+      gap: 8px;
+    }
+    
+    .level-title {
+      font-size: 8pt !important;
+      margin: 0 !important;
+      text-align: right;
+      white-space: nowrap;
+    }
+    
+    .level-bar {
+      height: 4px !important;
+      background: #e0e0e0 !important;
+      width: 100%;
+    }
+    
+    .level-bar-inner {
+      height: 4px !important;
+      background-color: #333 !important;
+      -webkit-print-color-adjust: exact;
+    }
+  }
+
+  .container-block {
+    page-break-inside: avoid;
+  }
+
+  /* Hide elements not needed for print */
+  .remove-container.container-block,
+  footer,
+  .print-button,
+  .pdf-button,
+  .d-print-none {
+    display: none !important;
+  }
+
+  /* Ensure stacked icons work properly */
+  .section-title {
+    .fa-stack {
+      .fa-circle {
+        color: #333 !important;
+      }
+      .fa-inverse {
+        color: #ffffff !important;
+      }
+    }
+  }
+  
+  /* Color adjustments for print */
+  * {
+    color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
 }
