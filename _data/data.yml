@@ -51,11 +51,11 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Pragmatic Engineering Director with 10+ years delivering enterprise-grade infrastructure and data platforms at resource-constrained startups. Built SRE, Security, and Data Engineering capability from ground up at Render Networks, managing $1M infrastructure budget while maintaining 99.99% uptime, achieving ISO 27001:2022 certification, and consistently reducing costs as the business scales.
+    I build reliable, modern infrastructure without over-engineering or wasting money. As Engineering Director at Render Networks, I've maintained 99.99% uptime for 3 years while consistently reducing AWS costs as our user base grows—proving you can have both reliability and efficiency.
     
-    Expert in right-sizing technology decisions for business needs—choosing serverless over Kubernetes, managed services over self-hosted complexity, and strategic vendor negotiations over premature optimization. Recent achievements include architecting event-driven microservices migration, implementing AI(LLM)-powered quality control tool for image processing (80% accuracy), leading 100% LLM adoption across 20 engineers (2K+ Copilot completions/month), and delivering $105K annual cost savings through platform modernization.
+    Over the past 10 years at startups including Render Networks, Sorted, and Unlockd, I've built teams from scratch, achieved ISO 27001 certification, and delivered platform transformations critical to securing $40M in investment. I choose the right technology for the business need: serverless over containers when appropriate, managed services when they save team time, and modern tools like Databricks and Confluent when they deliver clear value.
     
-    Proven track record building high-performing teams with strong retention, interviewing/hiring for dozens of roles, and maintaining hands-on technical leadership while operating cross-functionally. Technical expertise spans AWS, event-driven architecture, modern data platforms (Databricks, dbt), and cost-effective infrastructure decisions. Seeking Director-level role combining strategic technical leadership with hands-on engineering at growing companies.
+    My recent work spans AI/ML integration (built image moderation system with 80% accuracy), LLM adoption (100% uptake across 20 engineers, 40% faster PRs), and data platform modernization (65% cost reduction). I'm looking for a Director role where technical depth and business judgment both matter—where I can architect solutions, write code, and develop high-performing teams.
 
 education:
   title: Education
